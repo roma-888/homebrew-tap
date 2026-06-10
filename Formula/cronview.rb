@@ -1,28 +1,28 @@
 class Cronview < Formula
   desc "Terminal calendar viewer for your cron jobs"
   homepage "https://github.com/roma-888/cronview"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/roma-888/cronview/releases/download/v0.5.0/cronview-darwin-arm64"
-      sha256 "87645ab61e13f67cb4edb0ca115500515b96ad5c24a57865c5b4ffeaba25cf07"
+      url "https://github.com/roma-888/cronview/releases/download/v0.6.0/cronview-darwin-arm64"
+      sha256 "56197ff6d4e1165a47b4bd137547d9442a62b598715ce90ad97ffe2f09410028"
     end
     on_intel do
-      url "https://github.com/roma-888/cronview/releases/download/v0.5.0/cronview-darwin-x64"
-      sha256 "ec40a10c1392cda45b8fd0bbbf234bcb4553ac62829728936dd02ce6c9c78d21"
+      url "https://github.com/roma-888/cronview/releases/download/v0.6.0/cronview-darwin-x64"
+      sha256 "a53fafb8f4b7efb365578ca73e3e0941a722f4992cd9eba8004c02f3839df35f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/roma-888/cronview/releases/download/v0.5.0/cronview-linux-arm64"
-      sha256 "dfd1491a084c20159d42d5badfac26f2f38345e824fef8a182acd6676aa0bed2"
+      url "https://github.com/roma-888/cronview/releases/download/v0.6.0/cronview-linux-arm64"
+      sha256 "162242a362fa9c60a6ade7673bcbcca5e962cff3543011893b496e2562543aac"
     end
     on_intel do
-      url "https://github.com/roma-888/cronview/releases/download/v0.5.0/cronview-linux-x64"
-      sha256 "7ce07126c89b0321c8ccdbe0b346e093cce77493a1062c63f8189b2162e5defe"
+      url "https://github.com/roma-888/cronview/releases/download/v0.6.0/cronview-linux-x64"
+      sha256 "9b3a77369ddd2d489e073364137e00aa3b3207117f9653f21a44ceaf9ec8729f"
     end
   end
 
